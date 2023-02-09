@@ -7,7 +7,7 @@
   <h4>Body</h4>
   <%= f.text_area :body %>
   
-  <%= f.submit 'Update Book' %>
+  <button><%= f.submit 'Update Book' %></button>
   
   
 <% end %>
@@ -15,5 +15,3 @@
 <%= link_to "Show", book_path(@book.id) %>
 <a>|</a>
 <%= link_to "Back", books_path(@books) %>
-
-<%= link_to "Destroy", destroy_book_path(@book.id), method: :delete, "data-confirm" => "Are you sure？" %>
