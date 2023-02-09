@@ -1,3 +1,48 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 0 7px 7px 5px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: black;
+}
+
+h2 {
+  padding: 20px 0;
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 210px;
+  height: 25px;
+}
+
+input[type="submit"] {
+  width: 115px;
+  height: 28px;
+  font-size: 17px;
+}
+
+
+.message {
+  color: green;
+  margin: 0 0 30px 40px;
+}
+
