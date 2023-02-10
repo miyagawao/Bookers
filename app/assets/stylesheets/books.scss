@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: verdana, arial, helvetica, sans-serif;
 }
 
 body {
@@ -12,14 +13,27 @@ body {
 }
 
 th {
-  padding-bottom: 5px;
+  padding: 15px 0;
 }
 
 td {
   padding: 0 7px 7px 5px;
   font-family: verdana, arial, helvetica, sans-serif;
+}
+
+a:link {
   color: black;
 }
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
 
 h2 {
   padding: 20px 0;
@@ -30,16 +44,35 @@ h2 {
 }
 
 input[type="text"] {
-  width: 210px;
+  width: 190px;
   height: 25px;
+  font-size: 15px;
 }
+
+
 
 input[type="submit"] {
   width: 115px;
   height: 28px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
+
+.show {
+  margin: 40px;
+}
+
+span {
+  padding-right: 5px;
+}
+
+.edit {
+  margin-top: 15px;
+}
+
+.edit-submit {
+  margin: 15px 0;
+}
 
 .message {
   color: green;
